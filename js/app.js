@@ -32,6 +32,7 @@ $(function(){
      await $('.content').remove();
       await $('.imahe').remove();
       await $('h4').remove();
+      await $('p').remove();
       jokeCount = 0;
       yesCount = 0;
       noCount = 0;
@@ -109,7 +110,7 @@ $(function(){
                   `
                   <div>
                   <img class="imahe" src="${ansimage}" alt="">
-                  <p> congrats </p>
+                  <p>CONGRATULATIONS YOU'RE FUNNY!</p>
                   </div>
                   `
                 }
@@ -119,7 +120,7 @@ $(function(){
                   `
                   <div>
                   <img class="imahe" src="${ansimage}" alt="">
-                  <p> not lucky </p>
+                  <p>SORRY YOU'RE NOT LUCKY!</p>
                   </div>
                   `
 
